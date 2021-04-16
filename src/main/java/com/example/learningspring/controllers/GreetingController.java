@@ -1,6 +1,5 @@
 package com.example.learningspring.controllers;
 
-import com.example.learningspring.services.HappyLifeImpl;
 import com.example.learningspring.services.HappyLifeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
