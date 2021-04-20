@@ -1,7 +1,7 @@
 package com.example.learningspring.services;
 
 public class HappyLifeFactory {
-    public HappyLifeService happyLifeService(String degree){
+    public HappyLifeService createHappyLifeService(String degree){
         HappyLifeService service = null;
 
         switch(degree){
